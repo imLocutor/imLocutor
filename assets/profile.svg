@@ -1,0 +1,117 @@
+<svg width="944" height="606" viewBox="0 0 944 606" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .art { font-family: 'Fira Code', 'Courier New', monospace; font-size: 12.3px; fill: #38bdf8; white-space: pre; text-shadow: 0 0 8px rgba(56, 189, 248, 0.4); }
+      .header { font-family: 'Fira Code', 'Courier New', monospace; font-size: 18px; font-weight: 700; fill: #f43f5e; text-shadow: 0 0 10px rgba(244, 63, 94, 0.4); }
+      .rule { stroke: #f43f5e; stroke-width: 1.5; opacity: 0.85; }
+      .fieldline { font-family: 'Fira Code', 'Courier New', monospace; font-size: 13px; }
+      .label { fill: #f8fafc; font-weight: 700; }
+      .value { fill: #38bdf8; }
+      .prompt { font-family: 'Fira Code', 'Courier New', monospace; font-size: 14px; font-weight: 700; fill: #f43f5e; }
+      .titletext { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 12px; font-weight: 500; fill: #94a3b8; letter-spacing: 0.5px; }
+      .promptcmd { font-family: 'Fira Code', 'Courier New', monospace; font-size: 14px; fill: #38bdf8; white-space: pre; }
+      .promptcursor { fill: #38bdf8; }
+      @keyframes promptClip0 { 0.0% { width: 0.0px; animation-timing-function: steps(16, jump-end); } 4.613% { width: 144.0px; animation-timing-function: steps(1, jump-end); } 9.555% { width: 144.0px; animation-timing-function: steps(16, jump-end); } 12.191% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
+      @keyframes promptClip1 { 0% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 13.839% { width: 0.0px; animation-timing-function: steps(37, jump-end); } 24.506% { width: 333.0px; animation-timing-function: steps(1, jump-end); } 29.448% { width: 333.0px; animation-timing-function: steps(37, jump-end); } 35.544% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
+      @keyframes promptClip2 { 0% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 37.191% { width: 0.0px; animation-timing-function: steps(32, jump-end); } 46.417% { width: 288.0px; animation-timing-function: steps(1, jump-end); } 51.359% { width: 288.0px; animation-timing-function: steps(32, jump-end); } 56.631% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
+      @keyframes promptClip3 { 0% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 58.278% { width: 0.0px; animation-timing-function: steps(29, jump-end); } 66.639% { width: 261.0px; animation-timing-function: steps(1, jump-end); } 71.582% { width: 261.0px; animation-timing-function: steps(29, jump-end); } 76.359% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
+      @keyframes promptClip4 { 0% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 78.007% { width: 0.0px; animation-timing-function: steps(34, jump-end); } 87.809% { width: 306.0px; animation-timing-function: steps(1, jump-end); } 92.751% { width: 306.0px; animation-timing-function: steps(34, jump-end); } 98.353% { width: 0.0px; animation-timing-function: steps(1, jump-end); } 100% { width: 0.0px; animation-timing-function: steps(1, jump-end); } }
+      .promptClipRect0 { animation: promptClip0 24.280s infinite; }
+.promptClipRect1 { animation: promptClip1 24.280s infinite; }
+.promptClipRect2 { animation: promptClip2 24.280s infinite; }
+.promptClipRect3 { animation: promptClip3 24.280s infinite; }
+.promptClipRect4 { animation: promptClip4 24.280s infinite; }
+      @keyframes promptCursorMove { 0.0% { transform: translateX(0.0px); animation-timing-function: steps(16, jump-end); } 4.613% { transform: translateX(144.0px); animation-timing-function: steps(1, jump-end); } 9.555% { transform: translateX(144.0px); animation-timing-function: steps(16, jump-end); } 12.191% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 0% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 13.839% { transform: translateX(0.0px); animation-timing-function: steps(37, jump-end); } 24.506% { transform: translateX(333.0px); animation-timing-function: steps(1, jump-end); } 29.448% { transform: translateX(333.0px); animation-timing-function: steps(37, jump-end); } 35.544% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 0% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 37.191% { transform: translateX(0.0px); animation-timing-function: steps(32, jump-end); } 46.417% { transform: translateX(288.0px); animation-timing-function: steps(1, jump-end); } 51.359% { transform: translateX(288.0px); animation-timing-function: steps(32, jump-end); } 56.631% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 0% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 58.278% { transform: translateX(0.0px); animation-timing-function: steps(29, jump-end); } 66.639% { transform: translateX(261.0px); animation-timing-function: steps(1, jump-end); } 71.582% { transform: translateX(261.0px); animation-timing-function: steps(29, jump-end); } 76.359% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 0% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 78.007% { transform: translateX(0.0px); animation-timing-function: steps(34, jump-end); } 87.809% { transform: translateX(306.0px); animation-timing-function: steps(1, jump-end); } 92.751% { transform: translateX(306.0px); animation-timing-function: steps(34, jump-end); } 98.353% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } 100% { transform: translateX(0.0px); animation-timing-function: steps(1, jump-end); } }
+      .promptcursor { animation: promptCursorMove 24.280s infinite, blink 1s steps(1) infinite; }
+      .fadein, .typewriter, .swatch { animation: fadeIn 0.65s cubic-bezier(0.16, 1, 0.3, 1) both; }
+      @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
+    </style>
+    
+      <clipPath id="promptClip0">
+        <rect x="79.0" y="534" width="144.0" height="20" class="promptClipRect0" />
+      </clipPath>
+      <clipPath id="promptClip1">
+        <rect x="79.0" y="534" width="333.0" height="20" class="promptClipRect1" />
+      </clipPath>
+      <clipPath id="promptClip2">
+        <rect x="79.0" y="534" width="288.0" height="20" class="promptClipRect2" />
+      </clipPath>
+      <clipPath id="promptClip3">
+        <rect x="79.0" y="534" width="261.0" height="20" class="promptClipRect3" />
+      </clipPath>
+      <clipPath id="promptClip4">
+        <rect x="79.0" y="534" width="306.0" height="20" class="promptClipRect4" />
+      </clipPath>
+  </defs>
+  
+  <!-- Terminal Frame with subtle outer glow -->
+  <rect x="0" y="0" width="944" height="606" rx="12" fill="#0a0e17" stroke="#1e293b" stroke-width="1.5" />
+  <path d="M0,12 a12,12 0 0 1 12,-12 h920 a12,12 0 0 1 12,12 v24 h-944 z"
+        fill="#111827" />
+  <circle cx="24" cy="18" r="6" fill="#ef4444" />
+  <circle cx="44" cy="18" r="6" fill="#eab308" />
+  <circle cx="64" cy="18" r="6" fill="#22c55e" />
+  <text x="472" y="23" text-anchor="middle" class="titletext">imLocutor@sec-ops: ~/portfolio</text>
+  <line x1="0" y1="36" x2="944" y2="36" stroke="#1e293b" stroke-width="1.2" />
+
+  
+      <text x="34" y="138.0" class="art fadein" style="animation-delay:0.0s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                                      </text>
+      <text x="34" y="153.0" class="art fadein" style="animation-delay:0.04s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                                      </text>
+      <text x="34" y="168.0" class="art fadein" style="animation-delay:0.08s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                                      </text>
+      <text x="34" y="183.0" class="art fadein" style="animation-delay:0.12s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                                      </text>
+      <text x="34" y="198.0" class="art fadein" style="animation-delay:0.16s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">                    .                 </text>
+      <text x="34" y="213.0" class="art fadein" style="animation-delay:0.2s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               .::::::.             . </text>
+      <text x="34" y="228.0" class="art fadein" style="animation-delay:0.24s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">               :+:::::.             . </text>
+      <text x="34" y="243.0" class="art fadein" style="animation-delay:0.28s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">              .:::::...    ...    ... </text>
+      <text x="34" y="258.0" class="art fadein" style="animation-delay:0.32s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">              .. .:.       ...    ..: </text>
+      <text x="34" y="273.0" class="art fadein" style="animation-delay:0.36s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">             :::::+:....            . </text>
+      <text x="34" y="288.0" class="art fadein" style="animation-delay:0.4s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">             :::::+:...             . </text>
+      <text x="34" y="303.0" class="art fadein" style="animation-delay:0.44s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">             .:::::...              . </text>
+      <text x="34" y="318.0" class="art fadein" style="animation-delay:0.48s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">       ...    ::::...      ..:..      </text>
+      <text x="34" y="333.0" class="art fadein" style="animation-delay:0.52s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">    .:++#+:  .:::::.. ......          </text>
+      <text x="34" y="348.0" class="art fadein" style="animation-delay:0.56s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve"> :+###++#+++.::::........:::::..      </text>
+      <text x="34" y="363.0" class="art fadein" style="animation-delay:0.6s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">##+++++##+##::::......:::::::::::.    </text>
+      <text x="34" y="378.0" class="art fadein" style="animation-delay:0.64s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">++++++++#++#+:::.::::+:::::::::::::   </text>
+      <text x="34" y="393.0" class="art fadein" style="animation-delay:0.68s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">+++#+++++:+##+::.::+++::+::+::::::::  </text>
+      <text x="34" y="408.0" class="art fadein" style="animation-delay:0.72s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">+++++++++:+#++++::+++++:++++++++++::. </text>
+      <text x="34" y="423.0" class="art fadein" style="animation-delay:0.76s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">+++++++++++++++++++:+++:+++++:+:+++::.</text>
+      <text x="34" y="438.0" class="art fadein" style="animation-delay:0.8s" textLength="319.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">+++++++++++++++++::+++++:+++:::+++++:.</text>
+
+  <text x="397.2" y="96" class="header fadein" style="animation-delay:0.35s">imLocutor@sec-ops</text>
+  <line x1="397.2" y1="106" x2="577.7" y2="106" class="rule" />
+  
+      <text x="397.2" y="136" class="fieldline typewriter" style="animation-delay:0.40s"><tspan class="label">Developer:</tspan> <tspan class="value">Lucas Borgov</tspan></text>
+      <text x="397.2" y="158" class="fieldline typewriter" style="animation-delay:0.45s"><tspan class="label">Role:</tspan> <tspan class="value">Cyber Security Researcher &amp; Systems Dev</tspan></text>
+      <text x="397.2" y="180" class="fieldline typewriter" style="animation-delay:0.50s"><tspan class="label">Organization:</tspan> <tspan class="value">EQPG Network</tspan></text>
+      <text x="397.2" y="202" class="fieldline typewriter" style="animation-delay:0.55s"><tspan class="label">Core.Systems:</tspan> <tspan class="value">C++, C# (.NET), Memory Safety</tspan></text>
+      <text x="397.2" y="224" class="fieldline typewriter" style="animation-delay:0.60s"><tspan class="label">Game.Engine:</tspan> <tspan class="value">FiveM / Cfx.re, GTA V Natives</tspan></text>
+      <text x="397.2" y="246" class="fieldline typewriter" style="animation-delay:0.65s"><tspan class="label">Scripting:</tspan> <tspan class="value">Lua, Python, Bash</tspan></text>
+      <text x="397.2" y="268" class="fieldline typewriter" style="animation-delay:0.70s"><tspan class="label">Modern.Web:</tspan> <tspan class="value">Next.js, TypeScript, Tailwind CSS</tspan></text>
+      <text x="397.2" y="290" class="fieldline typewriter" style="animation-delay:0.75s"><tspan class="label">Security:</tspan> <tspan class="value">Anti-Cheat, Reverse Engineering, Exploit Mitigation</tspan></text>
+      <text x="397.2" y="312" class="fieldline typewriter" style="animation-delay:0.80s"><tspan class="label">Location:</tspan> <tspan class="value">Brazil</tspan></text>
+      <text x="397.2" y="334" class="fieldline typewriter" style="animation-delay:0.85s"><tspan class="label">Contact.GitHub:</tspan> <tspan class="value">github.com/imLocutor</tspan></text>
+      <text x="397.2" y="356" class="fieldline typewriter" style="animation-delay:0.90s"><tspan class="label">GitHub.Repos:</tspan> <tspan class="value">7</tspan></text>
+      <text x="397.2" y="378" class="fieldline typewriter" style="animation-delay:0.95s"><tspan class="label">GitHub.Stars:</tspan> <tspan class="value">0</tspan></text>
+      <text x="397.2" y="400" class="fieldline typewriter" style="animation-delay:1.00s"><tspan class="label">GitHub.Followers:</tspan> <tspan class="value">10</tspan></text>
+      <text x="397.2" y="422" class="fieldline typewriter" style="animation-delay:1.05s"><tspan class="label">GitHub.Languages:</tspan> <tspan class="value">Lua, TypeScript</tspan></text>
+  
+      <rect x="397.2" y="458.0" width="20" height="20" rx="4" fill="#0a0e17" stroke="#1e293b" stroke-width="1.2" class="swatch" style="animation-delay:1.10s" />
+      <rect x="425.2" y="458.0" width="20" height="20" rx="4" fill="#f43f5e" stroke="#1e293b" stroke-width="1.2" class="swatch" style="animation-delay:1.14s" />
+      <rect x="453.2" y="458.0" width="20" height="20" rx="4" fill="#10b981" stroke="#1e293b" stroke-width="1.2" class="swatch" style="animation-delay:1.18s" />
+      <rect x="481.2" y="458.0" width="20" height="20" rx="4" fill="#fbbf24" stroke="#1e293b" stroke-width="1.2" class="swatch" style="animation-delay:1.22s" />
+      <rect x="509.2" y="458.0" width="20" height="20" rx="4" fill="#38bdf8" stroke="#1e293b" stroke-width="1.2" class="swatch" style="animation-delay:1.26s" />
+      <rect x="537.2" y="458.0" width="20" height="20" rx="4" fill="#a855f7" stroke="#1e293b" stroke-width="1.2" class="swatch" style="animation-delay:1.30s" />
+      <rect x="565.2" y="458.0" width="20" height="20" rx="4" fill="#06b6d4" stroke="#1e293b" stroke-width="1.2" class="swatch" style="animation-delay:1.34s" />
+      <rect x="593.2" y="458.0" width="20" height="20" rx="4" fill="#f1f5f9" stroke="#1e293b" stroke-width="1.2" class="swatch" style="animation-delay:1.38s" />
+
+  <text x="34" y="524" class="prompt">┌──(imLocutor⚡kali)-[~/portfolio]</text>
+  <text x="34" y="548" class="prompt">└─$ </text>
+  
+      <text x="79.0" y="548" class="promptcmd" clip-path="url(#promptClip0)" textLength="144.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">whoami --profile</text>
+      <text x="79.0" y="548" class="promptcmd" clip-path="url(#promptClip1)" textLength="333.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">analyzing memory &amp; network packets...</text>
+      <text x="79.0" y="548" class="promptcmd" clip-path="url(#promptClip2)" textLength="288.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">mitigating FiveM client exploits</text>
+      <text x="79.0" y="548" class="promptcmd" clip-path="url(#promptClip3)" textLength="261.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">compiling C++ native hooks...</text>
+      <text x="79.0" y="548" class="promptcmd" clip-path="url(#promptClip4)" textLength="306.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">building secure game architectures</text>
+  <rect x="79.0" y="534.0" width="8" height="16" class="promptcursor" />
+</svg>
