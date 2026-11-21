@@ -29,7 +29,7 @@ PROFILE_FIELDS = [
     ("Scripting", "Lua, Python, Bash"),
     ("Modern.Web", "Next.js, TypeScript, Tailwind CSS"),
     ("Security", "Anti-Cheat, Reverse Engineering, Exploit Mitigation"),
-    ("Location", "Brazil"),
+    ("Location", "US"),
     ("Contact.GitHub", f"github.com/{LOGIN}"),
 ]
 

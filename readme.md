@@ -44,7 +44,7 @@ identity:
   name: "Lucas Borgov"
   handle: "imLocutor"
   affiliation: "EQPG Network"
-  location: "Brazil"
+  location: "US"
 
 expertise:
   - "Cybersecurity, Game Engine Memory Safety & Reverse Engineering"
@@ -124,6 +124,28 @@ current_focus:
     </td>
   </tr>
 </table>
+
+---
+
+<h3 align="center">Tech Stack & Tools</h3>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=cpp,cs,lua,ts,nextjs,react,tailwind,python,git,github,kali,bash&perline=6" alt="Tech Stack & Tools" />
+  </a>
+</p>
+
+---
+
+<h3 align="center">Contribution Activity</h3>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/imLocutor/imLocutor/main/assets/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/imLocutor/imLocutor/main/assets/pacman-contribution-graph.svg">
+    <img alt="Pac-Man Contribution Activity" src="https://raw.githubusercontent.com/imLocutor/imLocutor/main/assets/pacman-contribution-graph-dark.svg" width="100%" />
+  </picture>
+</p>
 
 ---
 
